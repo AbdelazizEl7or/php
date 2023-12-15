@@ -11,7 +11,7 @@ class DbManager {
         //Connecting to MongoDB
         try {
 			//Establish database connection
-            $this->conn = new MongoDB\Driver\Manager('mongodb://'.$this->dbhost.':'.$this->dbport);
+            $this->conn = new MongoDB\Driver\Manager('mongodb+srv://zizoBoy:741852@islam-data.iovdiwe.mongodb.net/all-data?retryWrites=true&w=majority');
         }catch (MongoDBDriverExceptionException $e) {
             echo $e->getMessage();
 			echo nl2br("n");
