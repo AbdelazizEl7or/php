@@ -7,7 +7,7 @@ header("Content-Type: application/json; charset=UTF-8");
 // include database file
 include_once 'mongodb_config.php';
 
-$dbname = 'roytuts';
+$dbname = 'chat';
 $collection = 'users';
 
 
