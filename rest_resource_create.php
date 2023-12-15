@@ -10,7 +10,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 // include database file
 include_once 'mongodb_config.php';
 
-$dbname = 'roytuts';
+$dbname = 'chat';
 $collection = 'users';
 
 //DB connection
